@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue-router测试，没有模块规范的用法</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" />
+</head>
+<body>
+    <div id="myApp">
+        <h3>{{msg}}</h3>
+        <div>
+            <a v-link="{path:'/foo'}">去foo</a>
+            <a v-link="{path:'/bar'}">去bar</a>
+        </div>
+        <router-view></router-view>
+    </div>
+</body>
+<script src="./dist/v-app.js"></script>
+</html>
